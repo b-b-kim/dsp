@@ -37,7 +37,7 @@ $ head <file> * output first ten lines of file
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
+`ls` 
 `ls -a`  
 `ls -l`  
 `ls -lh`  
@@ -45,7 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`   will not do anyting without additional
+`ls -a`  show hidden files
+`ls -l`  shows all information about the file/directory
+`ls -lh`  displays file size in human readable form
+`ls -lah`  displays long listing in human readable format summarizing file sizes
+`ls -t`  opens last edited file in current directory
+`ls -Glp`  ?? 
 
 ---
 
@@ -53,7 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -r	Displays files in reverse order.
+ls -m	Displays the names as a comma-separated list.
+ls -ltr will shows latest modification file or directory date as last.
+ls -lS displays file size in order, will display big in size first.
+ls -lv shows version
 
 ---
 
@@ -61,7 +71,16 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs reads data from standard input (stdin) and executes the command (supplied to it as argument)
+  one or more times based on the input read.
+  
+$ xargs
+Hello World  <control +D>
+Hello World
+$
+
+The above code printed "Hello World" because no echo is the default command for xargs therefore, it simply printed whatever 
+input was passed into it.
 
  
 
