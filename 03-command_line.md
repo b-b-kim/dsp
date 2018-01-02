@@ -19,7 +19,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+$ pwd * show current working directory
+$ mkdir <name_of_new_directory> * create a director
+$ rm -r <directory> * delete a directory 
+$ touch <directory * create a new file using touch command
+$ rm <file> * delete a file
+$ mv <oldfilename> <newfilename> * rename a file
+$ ls - la * list hidden files
+$ cp <file> <directory>  * copying a file from one directory to another
+$ ping <host> * ping host and display status
+$ head <file> * output first ten lines of file 
+                   
+
 
 ---
 
