@@ -45,7 +45,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-`ls`   will not do anyting without additional
+`ls`   shows files inside current directory
 `ls -a`  show hidden files
 `ls -l`  shows all information about the file/directory
 `ls -lh`  displays file size in human readable form
