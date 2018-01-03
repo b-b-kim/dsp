@@ -9,11 +9,11 @@ Use the NSFG respondent variable numkdhh to construct the actual distribution fo
 
 Now compute the biased distribution we would see if we surveyed the children and asked them how many children under 18 (including themselves) are in their household.
 
-biased = BiasPmf(pmf, label='biased')
+#### biased = BiasPmf(pmf, label='biased')
 
-thinkplot.PrePlot(2)
-thinkplot.Pmfs([pmf, biased])
-thinkplot.Config(xlabel='Number of children', ylabel='PMF')
+#### thinkplot.PrePlot(2)
+#### thinkplot.Pmfs([pmf, biased])
+#### thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
 Plot the actual and biased distributions, and compute their means.
 
