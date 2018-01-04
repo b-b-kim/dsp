@@ -86,14 +86,24 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
+>>  In 3000 births, we would expect 3000/300 = 10 sets of identical twins. Roughly half of those we would expect to be boys. That's 5 sets of boy-boy identical twins.
+
+In 3000 births, we would expect 3000/125 = 24 sets of fraternal twins. One fourth would be boy-boy, one-fourth would be girl-girl, one fourth would be boy-girl, and one fourth girl-boy. Therefore six sets would be boy-boy.
+
+So, out of 3000 births, five out of eleven sets of boy-boy twins would be identical. Therefore the chances that Elvis was an identical twin is about 5/11.
+ 
+ ---
+ 
+ ### Q6. Bayesian &amp; Frequentist Comparison  
+ How do frequentist and Bayesian statistics compare?
+ 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
+"In short, according to the **frequentist** definition of probability, only repeatable random events (like the result of flipping a coin) have probabilities. These probabilities are equal to the long-term frequency of occurrence of the events in question. Frequentists don’t attach probabilities to hypotheses or to any fixed but unknown values in general...Ignoring it often leads to misinterpretations of frequentist analyses.
 
----
+In contrast, **Bayesians** view probabilities as a more general concept. As a Bayesian, you can use probabilities to represent the uncertainty in any event or hypothesis. Here, it’s perfectly acceptable to assign probabilities to non-repeatable events, such as Hillary Clinton winning the US presidential race in 2016. Orthodox frequentists would claim that such probabilities don’t make sense because the event is not repeatable. That is, you can’t run the election cycle an infinite number of times and calculate the proportion of them that Hillary Clinton won."
 
-### Q6. Bayesian &amp; Frequentist Comparison  
-How do frequentist and Bayesian statistics compare?
-
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+-CTHAEH source: 
+https://www.probabilisticworld.com/frequentist-bayesian-approaches-inferential-statistics/
 
 ---
 
